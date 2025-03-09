@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100%;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header{
+    background-color: rgb(141, 141, 18);
+    padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.main-content{
+    width: 100%;
+    height: calc(100vh - 120px);
+ overflow-y: scroll;
+ 
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+footer{
+    text-align: center;
+    color: white;
+
+}
+footer h5{
+    opacity: 0.5;
 }
 
-.App-link {
-  color: #61dafb;
+.noJob{
+     font-size: 20px;
+     color: red;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* animations  */
+.description-content {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse backwards;
+	        animation: slide-top 0.5s cubic-bezier(0.100, 0.460, 0.450, 0.940) reverse backwards;
 }
+
+
+

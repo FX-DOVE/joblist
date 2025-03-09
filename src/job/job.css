@@ -1,0 +1,38 @@
+.job-container{
+    margin: 10px;
+    height: fit-content;
+    width: 300px;
+    box-shadow: 2px 5px 10px rgb(173, 172, 172);
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+.job-infor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.jobs-content{
+    margin-top: 10px;
+    color: green;
+}
+
+.tuggled-job-discription{
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+   position: absolute;
+    height: 150px;
+    width: 300px;
+    left: 0;
+    right: 0;
+    box-shadow: 2px 5px 10px rgb(173, 172, 172);
+    padding-bottom: 5px;
+    display: none;
+}
+
+.toggles{
+    color: red;
+    font-size: 10px;
+}
